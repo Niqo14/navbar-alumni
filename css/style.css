@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    padding: 90px 20px 0;
+}
+
+.header{
+    background: red;
+    height: 80px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+#logo{
+display: inline-block;
+  vertical-align: middle;
+  width: 80px;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+max-width: 992px;
+margin: 0 auto;
+}
+
+.nav-link{
+    color: white;
+    text-decoration: none;
+}
+
+
+.nav-menu{
+    display: flex;
+    margin-right: 40px;
+    list-style: none;
+}
+
+.lista{
+    font-size: 18px;
+    margin: 0 10px;
+    line-height: 80px;
+    text-transform: uppercase;
+    width: max-content;
+}
+
+.enlace{
+    padding: 8px 12px;
+    border-radius: 3px;
+}
+
+.enlace:hover{
+    background-color: white;
+    color: red;
+}
+
+.burga{
+    cursor: pointer;
+    
+}
+.mostrar{
+    left: 0;
+}
